@@ -81,16 +81,28 @@ exports.header = function*() {
 		nav: [{
 			href: '/',
 			icon: 'home',
-			text: 'Home'
+			text: 'Home',
+			title: '30岁的我，没有我想要的成熟，反倒是更加的迷茫，我看不清未来的要如何走下去。'
 		}, {
 			href: 'http://coderq.github.io',
 			icon: 'github',
-			text: 'Github'
+			text: 'Github',
+			title: '在技术的道路上，我不知道还能走多远，我没有别人的天资聪颖，很多东西都感到很吃力，但起码有些东西让我感到满足，起码是自娱自乐吧。'
+		}, {
+			href: 'http://javelin.coderq.net',
+			icon: 'star',
+			text: 'Javelin',
+			title: '面试的时候，面试官问我有什么东西是你做过的最自豪的作品，我想到了很多，但没有一个说得出口，这算一个。'
+		}, {
+			href: 'mailto:623619038@qq.com',
+			icon: 'mail',
+			text: 'Email',
+			title: '如果你敢于给一个陌生人发一封邮件，那么你也许会有另一段不同寻常的人生。可惜，我自己也没有这样做过。'
 		}],
 		title: 'CoderQ\'s Blog',
 		subtitle: [
 			'No die. No live.',
-			'Who am I. If someone can tell me who am I.'
+			'I lose myself. If someone can tell me who am I.',
 		].sort(() => {
 			var v = Math.random() - .5; 
 			return v / Math.abs(v);
