@@ -1,7 +1,7 @@
 # 个人技术博客后端
 
 ## 设想与构建
-个人技术博客主要用于存储个人平日技术积累与展示。该后端数据源与(http://coderq.github.io)[http://coderq.github.io]内容一致，同属于一个仓库中的markdown文件集。
+个人技术博客主要用于存储个人平日技术积累与展示。该后端数据源与[http://coderq.github.io](http://coderq.github.io)内容一致，同属于一个仓库中的markdown文件集。
 
 ## 版本
 
