@@ -102,7 +102,7 @@ exports.header = function*() {
 		title: 'CoderQ\'s Blog',
 		subtitle: [
 			'No die. No live.',
-			'I lose myself. If someone can tell me who am I.',
+			'I lose myself. If someone can tell me who I am.',
 		].sort(() => {
 			var v = Math.random() - .5; 
 			return v / Math.abs(v);
